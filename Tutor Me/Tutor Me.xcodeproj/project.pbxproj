@@ -12,7 +12,6 @@
 		341415EA21F2EDE60094383B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 341415E921F2EDE60094383B /* Assets.xcassets */; };
 		341415ED21F2EDE60094383B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341415EB21F2EDE60094383B /* LaunchScreen.storyboard */; };
 		341415F521F2EE2E0094383B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 341415F421F2EE2E0094383B /* Podfile */; };
-		341415F921F2EE6C0094383B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341415F821F2EE6C0094383B /* AppDelegate.swift */; };
 		3414160521F2F1650094383B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3414160421F2F1650094383B /* GoogleService-Info.plist */; };
 		3414161421F2F4C20094383B /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414161121F2F4C20094383B /* SignInVC.swift */; };
 		3414161521F2F4C20094383B /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414161221F2F4C20094383B /* SignUpVC.swift */; };
@@ -25,6 +24,7 @@
 		3414162821F2F6120094383B /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414162121F2F6110094383B /* FancyField.swift */; };
 		3414162A21F2F6120094383B /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414162321F2F6120094383B /* RoundBtn.swift */; };
 		3414162B21F2F6120094383B /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414162421F2F6120094383B /* FancyBtn.swift */; };
+		3414162D21F2FE090094383B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414162C21F2FE090094383B /* AppDelegate.swift */; };
 		61CB1BBFB015DA0277789791 /* Pods_Tutor_Me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4A13537E06D906A18E6698 /* Pods_Tutor_Me.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +37,6 @@
 		341415EC21F2EDE60094383B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		341415EE21F2EDE60094383B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		341415F421F2EE2E0094383B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		341415F821F2EE6C0094383B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../APPS/inkHub/inkHub/AppDelegate.swift; sourceTree = "<group>"; };
 		3414160421F2F1650094383B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3414161121F2F4C20094383B /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		3414161221F2F4C20094383B /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
@@ -50,6 +49,7 @@
 		3414162121F2F6110094383B /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		3414162321F2F6120094383B /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		3414162421F2F6120094383B /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		3414162C21F2FE090094383B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D4A13537E06D906A18E6698 /* Pods_Tutor_Me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tutor_Me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92980180C411F8CE450636FA /* Pods-Tutor Me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutor Me.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tutor Me/Pods-Tutor Me.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,13 +92,13 @@
 				3414161A21F2F5B40094383B /* Services */,
 				3414161721F2F5750094383B /* Util */,
 				3414160721F2F3FC0094383B /* Controller */,
-				341415F821F2EE6C0094383B /* AppDelegate.swift */,
 				341415E421F2EDE50094383B /* ViewController.swift */,
 				341415E621F2EDE50094383B /* Main.storyboard */,
 				341415E921F2EDE60094383B /* Assets.xcassets */,
 				341415EB21F2EDE60094383B /* LaunchScreen.storyboard */,
 				341415EE21F2EDE60094383B /* Info.plist */,
 				3414160421F2F1650094383B /* GoogleService-Info.plist */,
+				3414162C21F2FE090094383B /* AppDelegate.swift */,
 			);
 			path = "Tutor Me";
 			sourceTree = "<group>";
@@ -301,11 +301,11 @@
 				3414161521F2F4C20094383B /* SignUpVC.swift in Sources */,
 				3414161C21F2F5E30094383B /* DataService.swift in Sources */,
 				3414161921F2F5830094383B /* Constants.swift in Sources */,
-				341415F921F2EE6C0094383B /* AppDelegate.swift in Sources */,
 				3414161621F2F4C20094383B /* FeedVC.swift in Sources */,
 				3414162B21F2F6120094383B /* FancyBtn.swift in Sources */,
 				3414162721F2F6120094383B /* FancyViewWithBorder.swift in Sources */,
 				341415E521F2EDE50094383B /* ViewController.swift in Sources */,
+				3414162D21F2FE090094383B /* AppDelegate.swift in Sources */,
 				3414162521F2F6120094383B /* FancyView.swift in Sources */,
 				3414162821F2F6120094383B /* FancyField.swift in Sources */,
 				3414162A21F2F6120094383B /* RoundBtn.swift in Sources */,
