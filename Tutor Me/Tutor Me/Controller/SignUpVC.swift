@@ -105,7 +105,8 @@ class SignUpVC: UIViewController {
                 if let user = user {
                     let userData = ["provider": user.user.providerID,
                                     "name": userName,
-                                    "email": email
+                                    "email": email,
+                                    "accountType": "student"
                                     ]
                     self.completeSignIn(id: user.user.uid, userData: userData)
                 }
@@ -131,7 +132,8 @@ class SignUpVC: UIViewController {
                             let ref = Database.database().reference()
                             let usersReference = ref.child("users")
                             let newUserReference = usersReference.child(uid!)
-                            newUserReference.setValue(["name": userName, "email": email, "profileImageUrl": profileImageUrl])
+                            newUserReference.setValue(["name": userName,
+                                                       "email": email, "profileImageUrl": profileImageUrl])
                             KeychainWrapper.standard.set((user?.user.uid)!, forKey: KEY_UID)
                             
                         })
@@ -164,9 +166,6 @@ class SignUpVC: UIViewController {
     // add data to database
     func completeSignIn(id: String, userData: Dictionary<String, String>) {
         DataService.ds.createFirebaseDBUser(uid: id, userData: userData)
-        //let keychainResult = KeychainWrapper.standard.set(id, forKey: KEY_UID)
-        //performSegue(withIdentifier: "goToFeed", sender: nil)
-        //print("CALEB: Data saved to keychain \(keychainResult)")
     }
     
     
