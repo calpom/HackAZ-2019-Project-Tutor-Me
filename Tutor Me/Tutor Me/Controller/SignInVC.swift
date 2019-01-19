@@ -12,6 +12,9 @@ class SignInVC: UIViewController {
     @IBOutlet weak var pwdField: FancyField!
     @IBOutlet weak var warningLabel: UILabel!
     
+    // profile objects
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // NOTE: viewDidLoad() cannot perform segues. instead use viewDidAppear
