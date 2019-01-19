@@ -190,9 +190,9 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fK-18-bwB">
-                                <rect key="frame" x="16" y="599" width="30" height="48"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
-                                <state key="normal" title="&lt;">
+                                <rect key="frame" x="16" y="607" width="30" height="32"/>
+                                <fontDescription key="fontDescription" name="FontAwesome5FreeSolid" family="Font Awesome 5 Free" pointSize="20"/>
+                                <state key="normal" title="">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.86542166099999995" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -300,9 +300,9 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKw-ET-H5Z">
-                                <rect key="frame" x="16" y="599" width="30" height="48"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
-                                <state key="normal" title="&lt;">
+                                <rect key="frame" x="16" y="615" width="30" height="32"/>
+                                <fontDescription key="fontDescription" name="FontAwesome5FreeSolid" family="Font Awesome 5 Free" pointSize="20"/>
+                                <state key="normal" title="">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.86542166099999995" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -461,6 +461,6 @@
         <image name="pplStudying" width="648" height="432"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="47w-x9-sbn"/>
+        <segue reference="3Cd-zP-yyW"/>
     </inferredMetricsTieBreakers>
 </document>
