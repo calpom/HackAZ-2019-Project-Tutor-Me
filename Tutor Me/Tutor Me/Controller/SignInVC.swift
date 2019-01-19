@@ -29,6 +29,11 @@ class SignInVC: UIViewController {
         }
     }
     
+    @IBAction func exitButtonPressed(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    
     // authenticate with firebase
     func firebaseAuth(_ credential: AuthCredential) {
         Auth.auth().signInAndRetrieveData(with: credential, completion: { (user, error) in

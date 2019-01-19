@@ -35,6 +35,9 @@ class SignUpVC: UIViewController {
         warningLabel.isHidden = true
     }
     
+    @IBAction func backButtonPressed(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
     
     
     @objc func handleSelectProfileImageView() {

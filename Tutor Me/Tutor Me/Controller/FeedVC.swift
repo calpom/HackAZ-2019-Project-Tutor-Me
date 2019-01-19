@@ -7,7 +7,9 @@ import Firebase
 import SwiftKeychainWrapper
 
 class FeedVC: UIViewController{
-
+    
+    
+    @IBOutlet weak var testLabel: UILabel!
     @IBOutlet weak var signOutButton: UIButton!
     @IBOutlet weak var tableView: UITableView!
 
@@ -22,6 +24,20 @@ class FeedVC: UIViewController{
         
         
     }
+    
+    @IBAction func buttonAPressed(_ sender: Any) {
+        testLabel.text = "A"
+    }
+    
+    @IBAction func buttonBPressed(_ sender: Any) {
+        testLabel.text = "B"
+    }
+    
+    @IBAction func buttonCPressed(_ sender: Any) {
+        testLabel.text = "C"
+    }
+    
+    
 
     
     @IBAction func signOutButtonTapped(_ sender: UIButton) {

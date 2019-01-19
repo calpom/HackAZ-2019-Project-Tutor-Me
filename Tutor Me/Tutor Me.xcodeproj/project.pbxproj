@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		341415E521F2EDE50094383B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341415E421F2EDE50094383B /* ViewController.swift */; };
 		341415E821F2EDE50094383B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341415E621F2EDE50094383B /* Main.storyboard */; };
 		341415EA21F2EDE60094383B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 341415E921F2EDE60094383B /* Assets.xcassets */; };
 		341415ED21F2EDE60094383B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341415EB21F2EDE60094383B /* LaunchScreen.storyboard */; };
@@ -25,13 +24,14 @@
 		3414162A21F2F6120094383B /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414162321F2F6120094383B /* RoundBtn.swift */; };
 		3414162B21F2F6120094383B /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414162421F2F6120094383B /* FancyBtn.swift */; };
 		3414162D21F2FE090094383B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414162C21F2FE090094383B /* AppDelegate.swift */; };
+		3414162F21F329190094383B /* FirstScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414162E21F329190094383B /* FirstScreenVC.swift */; };
+		3414163121F32BF60094383B /* SignUpScreenOneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414163021F32BF60094383B /* SignUpScreenOneVC.swift */; };
 		61CB1BBFB015DA0277789791 /* Pods_Tutor_Me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4A13537E06D906A18E6698 /* Pods_Tutor_Me.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2271C6EAB7B3975795D24AEB /* Pods-Tutor Me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutor Me.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tutor Me/Pods-Tutor Me.release.xcconfig"; sourceTree = "<group>"; };
 		341415DF21F2EDE50094383B /* Tutor Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tutor Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		341415E421F2EDE50094383B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		341415E721F2EDE50094383B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		341415E921F2EDE60094383B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		341415EC21F2EDE60094383B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +50,8 @@
 		3414162321F2F6120094383B /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		3414162421F2F6120094383B /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 		3414162C21F2FE090094383B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3414162E21F329190094383B /* FirstScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenVC.swift; sourceTree = "<group>"; };
+		3414163021F32BF60094383B /* SignUpScreenOneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreenOneVC.swift; sourceTree = "<group>"; };
 		6D4A13537E06D906A18E6698 /* Pods_Tutor_Me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tutor_Me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92980180C411F8CE450636FA /* Pods-Tutor Me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutor Me.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tutor Me/Pods-Tutor Me.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,7 +94,6 @@
 				3414161A21F2F5B40094383B /* Services */,
 				3414161721F2F5750094383B /* Util */,
 				3414160721F2F3FC0094383B /* Controller */,
-				341415E421F2EDE50094383B /* ViewController.swift */,
 				341415E621F2EDE50094383B /* Main.storyboard */,
 				341415E921F2EDE60094383B /* Assets.xcassets */,
 				341415EB21F2EDE60094383B /* LaunchScreen.storyboard */,
@@ -109,6 +110,8 @@
 				3414161321F2F4C20094383B /* FeedVC.swift */,
 				3414161121F2F4C20094383B /* SignInVC.swift */,
 				3414161221F2F4C20094383B /* SignUpVC.swift */,
+				3414162E21F329190094383B /* FirstScreenVC.swift */,
+				3414163021F32BF60094383B /* SignUpScreenOneVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -304,12 +307,13 @@
 				3414161621F2F4C20094383B /* FeedVC.swift in Sources */,
 				3414162B21F2F6120094383B /* FancyBtn.swift in Sources */,
 				3414162721F2F6120094383B /* FancyViewWithBorder.swift in Sources */,
-				341415E521F2EDE50094383B /* ViewController.swift in Sources */,
 				3414162D21F2FE090094383B /* AppDelegate.swift in Sources */,
 				3414162521F2F6120094383B /* FancyView.swift in Sources */,
 				3414162821F2F6120094383B /* FancyField.swift in Sources */,
 				3414162A21F2F6120094383B /* RoundBtn.swift in Sources */,
+				3414162F21F329190094383B /* FirstScreenVC.swift in Sources */,
 				3414161421F2F4C20094383B /* SignInVC.swift in Sources */,
+				3414163121F32BF60094383B /* SignUpScreenOneVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
