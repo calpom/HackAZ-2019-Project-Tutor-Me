@@ -41,5 +41,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>fa-brands-400.ttf</string>
+		<string>fa-regular-400-ttf</string>
+		<string>fa-solid-900.ttf</string>
+	</array>
 </dict>
 </plist>

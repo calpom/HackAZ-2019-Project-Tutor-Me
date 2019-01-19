@@ -9,6 +9,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="fa-solid-900.ttf">
+            <string>FontAwesome5FreeSolid</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--First ScreenVC-->
         <scene sceneID="vUM-QR-O1D">
@@ -344,15 +349,8 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="120" translatesAutoresizingMaskIntoConstraints="NO" id="jim-4M-3ha">
                                         <rect key="frame" x="8" y="33" width="359" height="32"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A54-3H-qBL">
-                                                <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                <state key="normal" title="O">
-                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.86542166099999995" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </state>
-                                            </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOGO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvG-Ix-9WA">
-                                                <rect key="frame" x="152" y="0.0" width="55" height="32"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="32"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.86542166099999995" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -384,12 +382,12 @@
                                 <rect key="frame" x="0.0" y="617" width="375" height="50"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="75" translatesAutoresizingMaskIntoConstraints="NO" id="QiK-QT-AQX">
-                                        <rect key="frame" x="67.5" y="1" width="240" height="48"/>
+                                        <rect key="frame" x="67.5" y="9" width="240" height="32"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nV6-9I-kvW">
-                                                <rect key="frame" x="0.0" y="0.0" width="30" height="48"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                                <state key="normal" title="O">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="32"/>
+                                                <fontDescription key="fontDescription" name="FontAwesome5FreeSolid" family="Font Awesome 5 Free" pointSize="20"/>
+                                                <state key="normal" title="">
                                                     <color key="titleColor" white="0.12" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
@@ -397,9 +395,9 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Npt-3v-TOo">
-                                                <rect key="frame" x="105" y="0.0" width="30" height="48"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                                <state key="normal" title="O">
+                                                <rect key="frame" x="105" y="0.0" width="30" height="32"/>
+                                                <fontDescription key="fontDescription" name="FontAwesome5FreeSolid" family="Font Awesome 5 Free" pointSize="20"/>
+                                                <state key="normal" title="">
                                                     <color key="titleColor" white="0.12" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
@@ -407,9 +405,9 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gdb-a4-h5S">
-                                                <rect key="frame" x="210" y="0.0" width="30" height="48"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                                <state key="normal" title="O">
+                                                <rect key="frame" x="210" y="0.0" width="30" height="32"/>
+                                                <fontDescription key="fontDescription" name="FontAwesome5FreeSolid" family="Font Awesome 5 Free" pointSize="20"/>
+                                                <state key="normal" title="">
                                                     <color key="titleColor" white="0.12" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>

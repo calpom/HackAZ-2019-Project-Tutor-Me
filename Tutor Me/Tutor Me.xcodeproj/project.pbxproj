@@ -26,8 +26,10 @@
 		3414162D21F2FE090094383B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414162C21F2FE090094383B /* AppDelegate.swift */; };
 		3414162F21F329190094383B /* FirstScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414162E21F329190094383B /* FirstScreenVC.swift */; };
 		3414163121F32BF60094383B /* SignUpScreenOneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414163021F32BF60094383B /* SignUpScreenOneVC.swift */; };
+		3414163721F3B0E20094383B /* fa-brands-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3414163421F3B0240094383B /* fa-brands-400.ttf */; };
+		3414163821F3B0E70094383B /* fa-regular-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3414163521F3B0330094383B /* fa-regular-400.ttf */; };
+		3414163921F3B0EF0094383B /* fa-solid-900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3414163621F3B0420094383B /* fa-solid-900.ttf */; };
 		61CB1BBFB015DA0277789791 /* Pods_Tutor_Me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4A13537E06D906A18E6698 /* Pods_Tutor_Me.framework */; };
-		B3B79ABC21F38D5B009D7129 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B79ABB21F38D5A009D7129 /* ProfileVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,9 +55,11 @@
 		3414162C21F2FE090094383B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3414162E21F329190094383B /* FirstScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenVC.swift; sourceTree = "<group>"; };
 		3414163021F32BF60094383B /* SignUpScreenOneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreenOneVC.swift; sourceTree = "<group>"; };
+		3414163421F3B0240094383B /* fa-brands-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-brands-400.ttf"; sourceTree = "<group>"; };
+		3414163521F3B0330094383B /* fa-regular-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-regular-400.ttf"; sourceTree = "<group>"; };
+		3414163621F3B0420094383B /* fa-solid-900.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-solid-900.ttf"; sourceTree = "<group>"; };
 		6D4A13537E06D906A18E6698 /* Pods_Tutor_Me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tutor_Me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92980180C411F8CE450636FA /* Pods-Tutor Me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutor Me.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tutor Me/Pods-Tutor Me.debug.xcconfig"; sourceTree = "<group>"; };
-		B3B79ABB21F38D5A009D7129 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,9 @@
 				3414161721F2F5750094383B /* Util */,
 				3414160721F2F3FC0094383B /* Controller */,
 				341415E621F2EDE50094383B /* Main.storyboard */,
+				3414163421F3B0240094383B /* fa-brands-400.ttf */,
+				3414163521F3B0330094383B /* fa-regular-400.ttf */,
+				3414163621F3B0420094383B /* fa-solid-900.ttf */,
 				341415E921F2EDE60094383B /* Assets.xcassets */,
 				341415EB21F2EDE60094383B /* LaunchScreen.storyboard */,
 				341415EE21F2EDE60094383B /* Info.plist */,
@@ -114,7 +121,6 @@
 				3414161221F2F4C20094383B /* SignUpVC.swift */,
 				3414162E21F329190094383B /* FirstScreenVC.swift */,
 				3414163021F32BF60094383B /* SignUpScreenOneVC.swift */,
-				B3B79ABB21F38D5A009D7129 /* ProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -226,9 +232,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				341415ED21F2EDE60094383B /* LaunchScreen.storyboard in Resources */,
+				3414163921F3B0EF0094383B /* fa-solid-900.ttf in Resources */,
 				341415EA21F2EDE60094383B /* Assets.xcassets in Resources */,
 				3414160521F2F1650094383B /* GoogleService-Info.plist in Resources */,
+				3414163821F3B0E70094383B /* fa-regular-400.ttf in Resources */,
 				341415F521F2EE2E0094383B /* Podfile in Resources */,
+				3414163721F3B0E20094383B /* fa-brands-400.ttf in Resources */,
 				341415E821F2EDE50094383B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,7 +312,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3B79ABC21F38D5B009D7129 /* ProfileVC.swift in Sources */,
 				3414162621F2F6120094383B /* CircleView.swift in Sources */,
 				3414161521F2F4C20094383B /* SignUpVC.swift in Sources */,
 				3414161C21F2F5E30094383B /* DataService.swift in Sources */,
