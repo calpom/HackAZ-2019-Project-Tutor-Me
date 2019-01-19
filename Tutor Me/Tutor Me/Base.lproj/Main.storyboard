@@ -457,21 +457,6 @@
             </objects>
             <point key="canvasLocation" x="1172" y="145.27736131934034"/>
         </scene>
-        <!--ProfileVC-->
-        <scene sceneID="0iX-EA-T6k">
-            <objects>
-                <viewController id="ZHJ-i4-ntp" customClass="ProfileVC" customModule="Tutor_Me" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="epM-po-iNN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.090196078431372548" green="0.090196078431372548" blue="0.090196078431372548" alpha="1" colorSpace="calibratedRGB"/>
-                        <viewLayoutGuide key="safeArea" id="9Ln-H8-9ix"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ECR-oE-unc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1950" y="144"/>
-        </scene>
     </scenes>
     <resources>
         <image name="defaultProfilePicture" width="225" height="225"/>
