@@ -101,12 +101,15 @@ class SignUpVC: UIViewController {
                 // TODO: MAKE LOADING CIRCLE AND BLACK BACKGROUND DISAPPEAR
                 
                 print("CALEB: Successfully authenticated with Firebase using email")
-                /*
+
                 if let user = user {
-                    let userData = ["provider": user.user.providerID, "name": userName]
+                    let userData = ["provider": user.user.providerID,
+                                    "name": userName,
+                                    "email": email
+                                    ]
                     self.completeSignIn(id: user.user.uid, userData: userData)
                 }
-                */
+                
                 
                 let uid = user?.user.uid
                 let storageRef = Storage.storage().reference(forURL: "gs://tutor-me-8d6d2.appspot.com").child("profile-pics").child(uid!)
@@ -158,12 +161,12 @@ class SignUpVC: UIViewController {
     }
     
     
-    // dont think im even using this method in this class
+    // add data to database
     func completeSignIn(id: String, userData: Dictionary<String, String>) {
         DataService.ds.createFirebaseDBUser(uid: id, userData: userData)
-        let keychainResult = KeychainWrapper.standard.set(id, forKey: KEY_UID)
-        performSegue(withIdentifier: "goToFeed", sender: nil)
-        print("CALEB: Data saved to keychain \(keychainResult)")
+        //let keychainResult = KeychainWrapper.standard.set(id, forKey: KEY_UID)
+        //performSegue(withIdentifier: "goToFeed", sender: nil)
+        //print("CALEB: Data saved to keychain \(keychainResult)")
     }
     
     
