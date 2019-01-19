@@ -18,6 +18,7 @@ class SignUpVC: UIViewController {
     @IBOutlet weak var profileImage: UIImageView!
     
     
+    @IBOutlet weak var theSwitch: UISwitch!
     
     
     override func viewDidLoad() {
@@ -101,13 +102,19 @@ class SignUpVC: UIViewController {
                 // TODO: MAKE LOADING CIRCLE AND BLACK BACKGROUND DISAPPEAR
                 
                 print("CALEB: Successfully authenticated with Firebase using email")
-
+                
+                var isTutor: String
+                if self.theSwitch.isOn {
+                    isTutor = "true"
+                } else {
+                    isTutor = "false"
+                }
                 if let user = user {
                     let userData = ["provider": user.user.providerID,
                                     "name": userName,
                                     "email": email,
-                                    "accountType": "student"
-                                    ]
+                                    "isTutor": isTutor
+                        ] 
                     self.completeSignIn(id: user.user.uid, userData: userData)
                 }
                 

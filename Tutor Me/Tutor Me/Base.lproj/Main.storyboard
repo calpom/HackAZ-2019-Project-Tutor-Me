@@ -224,6 +224,7 @@
                         <outlet property="passwordField" destination="WOu-2s-WMo" id="6H8-D7-D3y"/>
                         <outlet property="passwordField2" destination="Kme-yf-ZfK" id="iSU-Ko-Xa7"/>
                         <outlet property="profileImage" destination="xew-YT-fCd" id="vem-Hd-PhW"/>
+                        <outlet property="theSwitch" destination="313-EL-Cl9" id="Zam-5h-GhG"/>
                         <outlet property="usernameField" destination="UAY-mK-kN1" id="3AM-sU-4Tv"/>
                         <outlet property="warningLabel" destination="hqE-Kf-ZWz" id="6Lh-0T-tuK"/>
                         <segue destination="vBm-Gf-fxU" kind="show" identifier="goToFeed2" id="3Cd-zP-yyW"/>
@@ -478,6 +479,6 @@
         <image name="pplStudying" width="648" height="432"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="47w-x9-sbn"/>
+        <segue reference="3Cd-zP-yyW"/>
     </inferredMetricsTieBreakers>
 </document>
