@@ -27,6 +27,7 @@
 		3414162F21F329190094383B /* FirstScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414162E21F329190094383B /* FirstScreenVC.swift */; };
 		3414163121F32BF60094383B /* SignUpScreenOneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414163021F32BF60094383B /* SignUpScreenOneVC.swift */; };
 		61CB1BBFB015DA0277789791 /* Pods_Tutor_Me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4A13537E06D906A18E6698 /* Pods_Tutor_Me.framework */; };
+		B3B79ABC21F38D5B009D7129 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B79ABB21F38D5A009D7129 /* ProfileVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		3414163021F32BF60094383B /* SignUpScreenOneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreenOneVC.swift; sourceTree = "<group>"; };
 		6D4A13537E06D906A18E6698 /* Pods_Tutor_Me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tutor_Me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92980180C411F8CE450636FA /* Pods-Tutor Me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutor Me.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tutor Me/Pods-Tutor Me.debug.xcconfig"; sourceTree = "<group>"; };
+		B3B79ABB21F38D5A009D7129 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				3414161221F2F4C20094383B /* SignUpVC.swift */,
 				3414162E21F329190094383B /* FirstScreenVC.swift */,
 				3414163021F32BF60094383B /* SignUpScreenOneVC.swift */,
+				B3B79ABB21F38D5A009D7129 /* ProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3B79ABC21F38D5B009D7129 /* ProfileVC.swift in Sources */,
 				3414162621F2F6120094383B /* CircleView.swift in Sources */,
 				3414161521F2F4C20094383B /* SignUpVC.swift in Sources */,
 				3414161C21F2F5E30094383B /* DataService.swift in Sources */,

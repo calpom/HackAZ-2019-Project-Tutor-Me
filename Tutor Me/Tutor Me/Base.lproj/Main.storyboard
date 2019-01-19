@@ -420,7 +420,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="0.12" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.090196078431372548" green="0.090196078431372548" blue="0.090196078431372548" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="gmw-Yy-lcd" firstAttribute="trailing" secondItem="urY-ko-X3E" secondAttribute="trailing" id="5rS-Yt-jAo"/>
                             <constraint firstItem="kTl-pm-xnt" firstAttribute="centerX" secondItem="giK-2P-9Oe" secondAttribute="centerX" id="9RM-cF-puP"/>
@@ -441,6 +441,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W6Z-ML-k1I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1172" y="145.27736131934034"/>
+        </scene>
+        <!--ProfileVC-->
+        <scene sceneID="0iX-EA-T6k">
+            <objects>
+                <viewController id="ZHJ-i4-ntp" customClass="ProfileVC" customModule="Tutor_Me" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="epM-po-iNN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.090196078431372548" green="0.090196078431372548" blue="0.090196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="9Ln-H8-9ix"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ECR-oE-unc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1950" y="144"/>
         </scene>
         <!--Sign Up Screen OneVC-->
         <scene sceneID="YfC-ne-uom">
@@ -546,6 +561,6 @@
         <image name="powerButton" width="100" height="100"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="8qs-V0-059"/>
+        <segue reference="47w-x9-sbn"/>
     </inferredMetricsTieBreakers>
 </document>
