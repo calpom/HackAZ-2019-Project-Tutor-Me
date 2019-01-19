@@ -3,7 +3,7 @@
 //  Tutor Me
 //
 //  Created by Kaleb  on 1/18/19.
-//  Copyright © 2019 KMTech. All rights reserved.
+//  Copyright © 2019 KKCG. All rights reserved.
 //
 
 import UIKit

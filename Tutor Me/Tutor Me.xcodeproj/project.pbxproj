@@ -7,73 +7,170 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		341415C321F2E17F0094383B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341415C221F2E17F0094383B /* AppDelegate.swift */; };
-		341415C521F2E17F0094383B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341415C421F2E17F0094383B /* ViewController.swift */; };
-		341415C821F2E17F0094383B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341415C621F2E17F0094383B /* Main.storyboard */; };
-		341415CA21F2E1820094383B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 341415C921F2E1820094383B /* Assets.xcassets */; };
-		341415CD21F2E1820094383B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341415CB21F2E1820094383B /* LaunchScreen.storyboard */; };
+		341415E521F2EDE50094383B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341415E421F2EDE50094383B /* ViewController.swift */; };
+		341415E821F2EDE50094383B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341415E621F2EDE50094383B /* Main.storyboard */; };
+		341415EA21F2EDE60094383B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 341415E921F2EDE60094383B /* Assets.xcassets */; };
+		341415ED21F2EDE60094383B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341415EB21F2EDE60094383B /* LaunchScreen.storyboard */; };
+		341415F521F2EE2E0094383B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 341415F421F2EE2E0094383B /* Podfile */; };
+		341415F921F2EE6C0094383B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341415F821F2EE6C0094383B /* AppDelegate.swift */; };
+		3414160521F2F1650094383B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3414160421F2F1650094383B /* GoogleService-Info.plist */; };
+		3414161421F2F4C20094383B /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414161121F2F4C20094383B /* SignInVC.swift */; };
+		3414161521F2F4C20094383B /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414161221F2F4C20094383B /* SignUpVC.swift */; };
+		3414161621F2F4C20094383B /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414161321F2F4C20094383B /* FeedVC.swift */; };
+		3414161921F2F5830094383B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414161821F2F5830094383B /* Constants.swift */; };
+		3414161C21F2F5E30094383B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414161B21F2F5E30094383B /* DataService.swift */; };
+		3414162521F2F6120094383B /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414161E21F2F6100094383B /* FancyView.swift */; };
+		3414162621F2F6120094383B /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414161F21F2F6110094383B /* CircleView.swift */; };
+		3414162721F2F6120094383B /* FancyViewWithBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414162021F2F6110094383B /* FancyViewWithBorder.swift */; };
+		3414162821F2F6120094383B /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414162121F2F6110094383B /* FancyField.swift */; };
+		3414162A21F2F6120094383B /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414162321F2F6120094383B /* RoundBtn.swift */; };
+		3414162B21F2F6120094383B /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414162421F2F6120094383B /* FancyBtn.swift */; };
+		61CB1BBFB015DA0277789791 /* Pods_Tutor_Me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4A13537E06D906A18E6698 /* Pods_Tutor_Me.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		341415BF21F2E17F0094383B /* Tutor Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tutor Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		341415C221F2E17F0094383B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		341415C421F2E17F0094383B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		341415C721F2E17F0094383B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		341415C921F2E1820094383B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		341415CC21F2E1820094383B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		341415CE21F2E1820094383B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2271C6EAB7B3975795D24AEB /* Pods-Tutor Me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutor Me.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tutor Me/Pods-Tutor Me.release.xcconfig"; sourceTree = "<group>"; };
+		341415DF21F2EDE50094383B /* Tutor Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tutor Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		341415E421F2EDE50094383B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		341415E721F2EDE50094383B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		341415E921F2EDE60094383B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		341415EC21F2EDE60094383B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		341415EE21F2EDE60094383B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341415F421F2EE2E0094383B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		341415F821F2EE6C0094383B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../APPS/inkHub/inkHub/AppDelegate.swift; sourceTree = "<group>"; };
+		3414160421F2F1650094383B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3414161121F2F4C20094383B /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		3414161221F2F4C20094383B /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		3414161321F2F4C20094383B /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		3414161821F2F5830094383B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3414161B21F2F5E30094383B /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		3414161E21F2F6100094383B /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		3414161F21F2F6110094383B /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		3414162021F2F6110094383B /* FancyViewWithBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyViewWithBorder.swift; sourceTree = "<group>"; };
+		3414162121F2F6110094383B /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		3414162321F2F6120094383B /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		3414162421F2F6120094383B /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		6D4A13537E06D906A18E6698 /* Pods_Tutor_Me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tutor_Me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92980180C411F8CE450636FA /* Pods-Tutor Me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutor Me.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tutor Me/Pods-Tutor Me.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		341415BC21F2E17F0094383B /* Frameworks */ = {
+		341415DC21F2EDE50094383B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61CB1BBFB015DA0277789791 /* Pods_Tutor_Me.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		341415B621F2E17F0094383B = {
+		341415D621F2EDE50094383B = {
 			isa = PBXGroup;
 			children = (
-				341415C121F2E17F0094383B /* Tutor Me */,
-				341415C021F2E17F0094383B /* Products */,
+				341415E121F2EDE50094383B /* Tutor Me */,
+				341415E021F2EDE50094383B /* Products */,
+				341415F421F2EE2E0094383B /* Podfile */,
+				DE1B52F1230EE971FD8916C6 /* Pods */,
+				3582BCEC7F5ABE34719BE90E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		341415C021F2E17F0094383B /* Products */ = {
+		341415E021F2EDE50094383B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				341415BF21F2E17F0094383B /* Tutor Me.app */,
+				341415DF21F2EDE50094383B /* Tutor Me.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		341415C121F2E17F0094383B /* Tutor Me */ = {
+		341415E121F2EDE50094383B /* Tutor Me */ = {
 			isa = PBXGroup;
 			children = (
-				341415C221F2E17F0094383B /* AppDelegate.swift */,
-				341415C421F2E17F0094383B /* ViewController.swift */,
-				341415C621F2E17F0094383B /* Main.storyboard */,
-				341415C921F2E1820094383B /* Assets.xcassets */,
-				341415CB21F2E1820094383B /* LaunchScreen.storyboard */,
-				341415CE21F2E1820094383B /* Info.plist */,
+				3414161D21F2F5F80094383B /* View */,
+				3414161A21F2F5B40094383B /* Services */,
+				3414161721F2F5750094383B /* Util */,
+				3414160721F2F3FC0094383B /* Controller */,
+				341415F821F2EE6C0094383B /* AppDelegate.swift */,
+				341415E421F2EDE50094383B /* ViewController.swift */,
+				341415E621F2EDE50094383B /* Main.storyboard */,
+				341415E921F2EDE60094383B /* Assets.xcassets */,
+				341415EB21F2EDE60094383B /* LaunchScreen.storyboard */,
+				341415EE21F2EDE60094383B /* Info.plist */,
+				3414160421F2F1650094383B /* GoogleService-Info.plist */,
 			);
 			path = "Tutor Me";
+			sourceTree = "<group>";
+		};
+		3414160721F2F3FC0094383B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3414161321F2F4C20094383B /* FeedVC.swift */,
+				3414161121F2F4C20094383B /* SignInVC.swift */,
+				3414161221F2F4C20094383B /* SignUpVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3414161721F2F5750094383B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3414161821F2F5830094383B /* Constants.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		3414161A21F2F5B40094383B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3414161B21F2F5E30094383B /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3414161D21F2F5F80094383B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3414161F21F2F6110094383B /* CircleView.swift */,
+				3414162421F2F6120094383B /* FancyBtn.swift */,
+				3414162121F2F6110094383B /* FancyField.swift */,
+				3414161E21F2F6100094383B /* FancyView.swift */,
+				3414162021F2F6110094383B /* FancyViewWithBorder.swift */,
+				3414162321F2F6120094383B /* RoundBtn.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3582BCEC7F5ABE34719BE90E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D4A13537E06D906A18E6698 /* Pods_Tutor_Me.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE1B52F1230EE971FD8916C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92980180C411F8CE450636FA /* Pods-Tutor Me.debug.xcconfig */,
+				2271C6EAB7B3975795D24AEB /* Pods-Tutor Me.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		341415BE21F2E17F0094383B /* Tutor Me */ = {
+		341415DE21F2EDE50094383B /* Tutor Me */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 341415D121F2E1820094383B /* Build configuration list for PBXNativeTarget "Tutor Me" */;
+			buildConfigurationList = 341415F121F2EDE60094383B /* Build configuration list for PBXNativeTarget "Tutor Me" */;
 			buildPhases = (
-				341415BB21F2E17F0094383B /* Sources */,
-				341415BC21F2E17F0094383B /* Frameworks */,
-				341415BD21F2E17F0094383B /* Resources */,
+				5DA73074844C7CCD4125F214 /* [CP] Check Pods Manifest.lock */,
+				341415DB21F2EDE50094383B /* Sources */,
+				341415DC21F2EDE50094383B /* Frameworks */,
+				341415DD21F2EDE50094383B /* Resources */,
+				03BCF2057E006E5B224621B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -81,25 +178,25 @@
 			);
 			name = "Tutor Me";
 			productName = "Tutor Me";
-			productReference = 341415BF21F2E17F0094383B /* Tutor Me.app */;
+			productReference = 341415DF21F2EDE50094383B /* Tutor Me.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		341415B721F2E17F0094383B /* Project object */ = {
+		341415D721F2EDE50094383B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = KMTech;
+				ORGANIZATIONNAME = KKCG;
 				TargetAttributes = {
-					341415BE21F2E17F0094383B = {
+					341415DE21F2EDE50094383B = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 341415BA21F2E17F0094383B /* Build configuration list for PBXProject "Tutor Me" */;
+			buildConfigurationList = 341415DA21F2EDE50094383B /* Build configuration list for PBXProject "Tutor Me" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +204,130 @@
 				en,
 				Base,
 			);
-			mainGroup = 341415B621F2E17F0094383B;
-			productRefGroup = 341415C021F2E17F0094383B /* Products */;
+			mainGroup = 341415D621F2EDE50094383B;
+			productRefGroup = 341415E021F2EDE50094383B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				341415BE21F2E17F0094383B /* Tutor Me */,
+				341415DE21F2EDE50094383B /* Tutor Me */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		341415BD21F2E17F0094383B /* Resources */ = {
+		341415DD21F2EDE50094383B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				341415CD21F2E1820094383B /* LaunchScreen.storyboard in Resources */,
-				341415CA21F2E1820094383B /* Assets.xcassets in Resources */,
-				341415C821F2E17F0094383B /* Main.storyboard in Resources */,
+				341415ED21F2EDE60094383B /* LaunchScreen.storyboard in Resources */,
+				341415EA21F2EDE60094383B /* Assets.xcassets in Resources */,
+				3414160521F2F1650094383B /* GoogleService-Info.plist in Resources */,
+				341415F521F2EE2E0094383B /* Podfile in Resources */,
+				341415E821F2EDE50094383B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03BCF2057E006E5B224621B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tutor Me/Pods-Tutor Me-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tutor Me/Pods-Tutor Me-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DA73074844C7CCD4125F214 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tutor Me-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		341415BB21F2E17F0094383B /* Sources */ = {
+		341415DB21F2EDE50094383B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				341415C521F2E17F0094383B /* ViewController.swift in Sources */,
-				341415C321F2E17F0094383B /* AppDelegate.swift in Sources */,
+				3414162621F2F6120094383B /* CircleView.swift in Sources */,
+				3414161521F2F4C20094383B /* SignUpVC.swift in Sources */,
+				3414161C21F2F5E30094383B /* DataService.swift in Sources */,
+				3414161921F2F5830094383B /* Constants.swift in Sources */,
+				341415F921F2EE6C0094383B /* AppDelegate.swift in Sources */,
+				3414161621F2F4C20094383B /* FeedVC.swift in Sources */,
+				3414162B21F2F6120094383B /* FancyBtn.swift in Sources */,
+				3414162721F2F6120094383B /* FancyViewWithBorder.swift in Sources */,
+				341415E521F2EDE50094383B /* ViewController.swift in Sources */,
+				3414162521F2F6120094383B /* FancyView.swift in Sources */,
+				3414162821F2F6120094383B /* FancyField.swift in Sources */,
+				3414162A21F2F6120094383B /* RoundBtn.swift in Sources */,
+				3414161421F2F4C20094383B /* SignInVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		341415C621F2E17F0094383B /* Main.storyboard */ = {
+		341415E621F2EDE50094383B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				341415C721F2E17F0094383B /* Base */,
+				341415E721F2EDE50094383B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		341415CB21F2E1820094383B /* LaunchScreen.storyboard */ = {
+		341415EB21F2EDE60094383B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				341415CC21F2E1820094383B /* Base */,
+				341415EC21F2EDE60094383B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +335,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		341415CF21F2E1820094383B /* Debug */ = {
+		341415EF21F2EDE60094383B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +396,7 @@
 			};
 			name = Debug;
 		};
-		341415D021F2E1820094383B /* Release */ = {
+		341415F021F2EDE60094383B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,36 +451,40 @@
 			};
 			name = Release;
 		};
-		341415D221F2E1820094383B /* Debug */ = {
+		341415F221F2EDE60094383B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92980180C411F8CE450636FA /* Pods-Tutor Me.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YD9493M265;
 				INFOPLIST_FILE = "Tutor Me/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "KMTech.Tutor-Me";
+				PRODUCT_BUNDLE_IDENTIFIER = "KKCG.Tutor-Me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		341415D321F2E1820094383B /* Release */ = {
+		341415F321F2EDE60094383B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2271C6EAB7B3975795D24AEB /* Pods-Tutor Me.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YD9493M265;
 				INFOPLIST_FILE = "Tutor Me/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "KMTech.Tutor-Me";
+				PRODUCT_BUNDLE_IDENTIFIER = "KKCG.Tutor-Me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,25 +494,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		341415BA21F2E17F0094383B /* Build configuration list for PBXProject "Tutor Me" */ = {
+		341415DA21F2EDE50094383B /* Build configuration list for PBXProject "Tutor Me" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				341415CF21F2E1820094383B /* Debug */,
-				341415D021F2E1820094383B /* Release */,
+				341415EF21F2EDE60094383B /* Debug */,
+				341415F021F2EDE60094383B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		341415D121F2E1820094383B /* Build configuration list for PBXNativeTarget "Tutor Me" */ = {
+		341415F121F2EDE60094383B /* Build configuration list for PBXNativeTarget "Tutor Me" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				341415D221F2E1820094383B /* Debug */,
-				341415D321F2E1820094383B /* Release */,
+				341415F221F2EDE60094383B /* Debug */,
+				341415F321F2EDE60094383B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 341415B721F2E17F0094383B /* Project object */;
+	rootObject = 341415D721F2EDE50094383B /* Project object */;
 }
