@@ -127,8 +127,7 @@ class SignUpVC: UIViewController {
                             let newUserReference = usersReference.child(uid!)
                             newUserReference.setValue(["name": userName, "email": email, "profileImageUrl": profileImageUrl])
                             KeychainWrapper.standard.set((user?.user.uid)!, forKey: KEY_UID)
-                            print("xxxxxxtesting")
-                            self.performSegue(withIdentifier: "goToFeed2", sender: nil)
+                            
                         })
                     })
                     
@@ -136,6 +135,8 @@ class SignUpVC: UIViewController {
 
                     
                 }
+                
+                self.performSegue(withIdentifier: "goToFeed2", sender: nil)
                 
                 
                 
